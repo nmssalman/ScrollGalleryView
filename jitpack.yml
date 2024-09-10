@@ -1,0 +1,8 @@
+jdk:
+  - openjdk17
+# before_install:
+#   - ./scripts/prepareJitpackEnvironment.sh
+
+install:
+  - FILE="-Dfile=chatmessageview-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.nmssalman -DartifactId=chatmessageview -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
