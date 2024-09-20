@@ -6,7 +6,6 @@
 
 ScrollGalleryView is a flexible library which helps you to create awesome media galleries in your Android application. It's easily integrated with the most popular image loading libraries such as Picasso, Glide and Fresco.
 
-![ScrollGalleryView](http://i.imgur.com/xrBt4Xx.gif)
 
 ## Key features
 
@@ -17,7 +16,6 @@ ScrollGalleryView is a flexible library which helps you to create awesome media 
 
 ## Installing
 
-Add [JitPack](https://jitpack.io) repository to your root `build.gradle` (see more details [here](https://github.com/VEINHORN/ScrollGalleryView/issues/71)):
 
 ```gradle
 allprojects {
@@ -31,31 +29,14 @@ allprojects {
 Add dependency to your module `build.gradle`:
 
 ```gradle
-implementation 'com.github.nmssalman:ScrollGalleryView:library:1.2.6'
+implementation 'implementation 'com.github.nmssalman:ScrollGalleryView:2.0'
 ```
 
 ### MediaLoaders
 
 There are several MediaLoaders implementations for most popular caching libraries: Picasso, Glide, Fresco.
 
-#### Picasso
-
-```gradle
-implementation 'com.veinhorn.scrollgalleryview:picasso-loader:1.2.4'
-```
-
-#### Glide
-
-```gradle
-implementation 'com.veinhorn.scrollgalleryview:glide-loader:1.2.9'
-```
-
-#### Fresco
-
-```gradle
-implementation 'com.veinhorn.scrollgalleryview:fresco-loader:1.2.4'
-```
-
+ 
 ## Usage
 
 Add *ScrollGalleryView* to your layout:
